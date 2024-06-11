@@ -1,7 +1,5 @@
 os: linux
 language: shell
-before_install:
-  - git lfs pull
 install: skip
 script:
   - git lfs ls-files
