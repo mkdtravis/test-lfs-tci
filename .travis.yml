@@ -4,7 +4,7 @@ before_install:
   - git lfs pull
 install: skip
 script:
-  - ls ./images
+  - git lfs ls-files
 
 jobs:
   include:
