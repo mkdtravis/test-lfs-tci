@@ -1,8 +1,9 @@
 os: linux
 language: shell
+before_install:
+  - git lfs pull
 install: skip
 script:
-  - sleep 10
   - ls ./images
 
 jobs:
