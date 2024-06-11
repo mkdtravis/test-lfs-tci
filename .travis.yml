@@ -1,5 +1,13 @@
 os: linux
-dist: xenial
 language: shell
 install: skip
-script: sleep 10
+script:
+  - sleep 10
+  - ls ./images
+
+jobs:
+  include:
+    - dist: xenial
+    - dist: bionic
+    - dist: focal
+    - dist: jammy
