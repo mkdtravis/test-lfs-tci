@@ -3,6 +3,7 @@ language: shell
 install: skip
 script:
   - git lfs ls-files
+  - git lfs version
 
 jobs:
   include:
