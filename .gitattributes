@@ -1,1 +1,9 @@
 images/lfs.jpg filter=lfs diff=lfs merge=lfs -text
+images/lfs[[:space:]]copy.jpg filter=lfs diff=lfs merge=lfs -text
+images/Archive.zip filter=lfs diff=lfs merge=lfs -text
+images/lfs[[:space:]]copy[[:space:]]2.jpg filter=lfs diff=lfs merge=lfs -text
+images/lfs[[:space:]]copy[[:space:]]3.jpg filter=lfs diff=lfs merge=lfs -text
+images/lfs[[:space:]]copy[[:space:]]4.jpg filter=lfs diff=lfs merge=lfs -text
+images/lfs[[:space:]]copy[[:space:]]5.jpg filter=lfs diff=lfs merge=lfs -text
+images/lfs[[:space:]]copy[[:space:]]6.jpg filter=lfs diff=lfs merge=lfs -text
+images/lfs[[:space:]]copy[[:space:]]7.jpg filter=lfs diff=lfs merge=lfs -text
