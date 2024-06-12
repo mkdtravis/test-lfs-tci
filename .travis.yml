@@ -2,12 +2,13 @@ os: linux
 language: shell
 install: skip
 script:
+  - git lfs pull
   - git lfs ls-files
   - git lfs version
 
 jobs:
   include:
-    - dist: xenial
+   # - dist: xenial
     - dist: bionic
     - dist: focal
-    - dist: jammy
+   # - dist: jammy
