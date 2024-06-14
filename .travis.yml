@@ -1,9 +1,9 @@
 os: linux
 language: shell
-git:
-  lfs_skip_smudge: true
+#git:
+ # lfs_skip_smudge: true
 before_install: 
-  -  - git lfs pull
+  - git lfs pull
 install: skip
 script:
   
